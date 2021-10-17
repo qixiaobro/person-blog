@@ -25,11 +25,12 @@
 		window.Lazyload.css('{{ _sources.gitalk.css }}');
 		window.Lazyload.js('{{ _sources.gitalk.js }}', function() {
 			var gitalk = new Gitalk({
-				clientID: '{{ site.comments.gitalk.clientID }}',
-				clientSecret: '{{ site.comments.gitalk.clientSecret }}',
-				repo: '{{ site.comments.gitalk.repository }}',
-				owner: '{{ site.comments.gitalk.owner }}',
-				admin: [{{ _admin }}],
+				proxy:'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token',
+				clientID: '2b5fa0ba553c9eb86848',
+				clientSecret: 'e387e9268e8c01e74967d54b33f3873b130a2287',
+				repo: 'blog-comments',
+				owner: 'qixiaobro',
+				admin: ['qixiaobro'],
 				id: '{{ page.key }}'
 			});
 			gitalk.render('js-gitalk-container');
