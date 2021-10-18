@@ -99,3 +99,57 @@ header:
 
   - title:      GitHub
     url:        https://github.com/qixiaobro
+
+tech-nav:
+  - title:      技术好文
+    children:
+      - title:  使用node搭建本地mock服务
+        url:    /docs/techs/node-mock-local
+      - title:  你真的懂stringify()吗？
+        url:    /docs/techs/jsonstringfy
+  - title:      学习笔记
+    children:
+      - title:  Vue.js 3.0简单上手
+        url:    /docs/techs/vue3
+      - title:  TypeScript简单上手
+        url:    /docs/techs/typescript
+      - title:  Vue.js系列学习
+        children:
+          - title: Vue-Router
+            url: /docs/techs/vue-router
+          - title: VueX
+            url: /docs/techs/vuex
+          - title: Vue-Transition
+            url: /docs/techs/vue-transition
+      - title:  重学ES6
+        children:
+          - title: 解构赋值
+            url: /docs/techs/es6-1
+          - title: 字符串的扩展
+            url: /docs/techs/es6-2
+          - title: 字符串的新增方法
+            url: /docs/techs/es6-3
+          - title: 对象的扩展
+            url: /docs/techs/es6-4
+          - title: 对象的新增方法
+            url: /docs/techs/es6-5
+          - title: 数值的扩展
+            url: /docs/techs/es6-6
+          - title: 数组的扩展
+            url: /docs/techs/es6-7
+          - title: 函数的扩展
+            url: /docs/techs/es6-8
+          - title: Set和Map数据结构
+            url: /docs/techs/es6-9
+          - title: async
+            url: /docs/techs/es6-10
+          - title: Proxy
+            url: /docs/techs/es6-11
+          - title: Symbol
+            url: /docs/techs/es6-12
+          - title: Promise
+            url: /docs/techs/es6-13
+          - title: Reflect
+            url: /docs/techs/es6-14
+          - title: module语法
+            url: /docs/techs/es6-15

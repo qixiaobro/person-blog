@@ -3,6 +3,11 @@ title: 使用node搭建本地mock服务
 date: 2019-07-15 15:40:35
 permalink: /docs/techs/node-mock-local
 key: node-mock-local
+sharing: true
+show_author_profile: true
+show_subscribe: true
+sidebar:
+  nav: tech-nav
 categories:
   - 前端
   - 技术文章

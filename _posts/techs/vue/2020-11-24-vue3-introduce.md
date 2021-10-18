@@ -3,8 +3,13 @@ title: Vue3简单上手
 date: 2020-11-24 16:08:22
 permalink: /docs/techs/vue3
 key: docs-techs-vue3
+sharing: true
+show_author_profile: true
+show_subscribe: true
 articles:
   excerpt_type: html
+sidebar:
+  nav: tech-nav
 categories:
   - 前端
   - 技术文章

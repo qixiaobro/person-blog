@@ -3,6 +3,11 @@ title: 你真的懂stringify()吗？
 date: 2019-10-26 15:45:26
 permalink: /docs/techs/jsonstringfy
 key: jsonstringfy
+sharing: true
+show_author_profile: true
+show_subscribe: true
+sidebar:
+  nav: tech-nav
 categories:
   - 前端
   - 技术文章

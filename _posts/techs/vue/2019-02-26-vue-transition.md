@@ -3,13 +3,20 @@ title: Vue transition 进入离开&列表过渡
 date: 2019-02-26 15:27:01
 permalink: /docs/techs/vue-transition
 key: vue-transition
+sharing: true
+show_author_profile: true
+show_subscribe: true
+sidebar:
+  nav: tech-nav
 categories:
   - 前端
   - 技术文章
 tags:
   - Vue.js
 ---
-Vue 中的进入离开&列表过渡学习。<!--more-->
+
+Vue 中的进入离开&列表过渡学习。
+<!--more-->
 ![](https://cdn.nlark.com/yuque/0/2020/svg/377922/1594123660671-25998841-e30e-4b8f-bdf3-defb16e594dd.svg)
 # 单元素/组件的过渡
 ## css过渡

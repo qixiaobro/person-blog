@@ -3,6 +3,11 @@ title: TypeScript 简单上手
 date: 2020-09-01 15:45:26
 permalink: /docs/techs/typescript
 key: docs-techs-typescript
+sharing: true
+show_author_profile: true
+show_subscribe: true
+sidebar:
+  nav: tech-nav
 categories:
   - 前端
   - 技术文章
