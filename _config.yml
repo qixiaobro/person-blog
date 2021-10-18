@@ -177,6 +177,7 @@ analytics:
     anonymize_ip: false # Anonymize IP tracking for Analytics
 
 
+clipboard: true
 ## => Build
 ##############################
 markdown    : kramdown

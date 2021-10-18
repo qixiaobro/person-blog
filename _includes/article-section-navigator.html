@@ -14,7 +14,23 @@
           {%- include snippets/get-nav-url.html path=page.url -%}
           {%- assign _page_url = __return -%}
 
-          {%- if _nav_url == _page_url -%}
+          {%- if _child.children -%}
+            {%- for _child2 in _child.children -%}
+              {%- include snippets/get-nav-url.html path=_child2.url -%}
+              {%- assign _nav_url = __return -%}
+                
+              {%- if _nav_url == _page_url -%}
+                {%- assign _find_cur = true -%}
+              {%- elsif _find_cur and _find_next != true -%}
+                {%- assign _find_next = true -%}
+                {%- assign _next = _child2 -%}
+                {%- break -%}
+              {%- else -%}
+                {%- assign _previous = _child2 -%}
+              {%- endif -%}
+            {%- endfor -%}
+
+          {%- elsif _nav_url == _page_url -%}
             {%- assign _find_cur = true -%}
           {%- elsif _find_cur and _find_next != true -%}
             {%- assign _find_next = true -%}
