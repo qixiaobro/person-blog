@@ -1,6 +1,6 @@
 ---
 title: 你真的懂stringify()吗？
-date: 2019-10-26 15:45:26
+date: 2019-07-30 15:45:26
 permalink: /docs/techs/jsonstringfy
 key: jsonstringfy
 sharing: true

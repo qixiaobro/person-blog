@@ -46,7 +46,7 @@ header:
       fr-FR   : *FR
       fr-LU   : *FR
       # @end locale config
-    url: /docs/techs/node-mock-local
+    url: /docs/tech/vue-msg
   - titles:
       # @start locale config
       en      : &EN       Archive
@@ -103,10 +103,23 @@ header:
 tech-nav:
   - title:      技术好文
     children:
-      - title:  使用node搭建本地mock服务
-        url:    /docs/techs/node-mock-local
+      - title:  Vue高级组件通信方法
+        url:    /docs/tech/vue-msg
+      - title:  Vue和小程序项目接入友盟
+        url:    /docs/techs/youmeng
+      - title:  Promise及手写Promise
+        url:    /docs/techs/init-promise
+      - title:  react项目创建与配置模版 
+        url:    /docs/techs/react-template
+      - title:   blob对象文件下载
+        url:    /docs/techs/blob-download
       - title:  你真的懂stringify()吗？
         url:    /docs/techs/jsonstringfy
+      - title:  使用node搭建本地mock服务
+        url:    /docs/techs/node-mock-local
+      - title:  手写ajax
+        url:    /docs/techs/xhr-ajax
+
   - title:      学习笔记
     children:
       - title:  Vue.js 3.0简单上手
