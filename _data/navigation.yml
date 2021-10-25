@@ -46,7 +46,7 @@ header:
       fr-FR   : *FR
       fr-LU   : *FR
       # @end locale config
-    url: /docs/tech/vue-msg
+    url: /docs/techs/cli-zero
   - titles:
       # @start locale config
       en      : &EN       Archive
@@ -101,8 +101,26 @@ header:
     url:        https://github.com/qixiaobro
 
 tech-nav:
-  - title:      技术好文
+  - title:      技术文章
     children:
+      - title:  从零开始开发cli
+        url:    /docs/techs/cli-zero
+      - title:  require源码解读
+        url:    /docs/techs/require
+      - title:  Common.js规范
+        url:    /docs/techs/commonjs
+      - title:   Node.js事件循环官方文档翻译 
+        url:    /docs/techs/nodejs-event-loop
+      - title:  Node.js 入门
+        url:    /docs/techs/nodejs-intor
+      - title:  函数式编程
+        url:    /docs/techs/func-code
+      - title:  Webpack配置示例
+        url:    /docs/techs/webpack
+      - title:  跨域资源共享 CORS 详解
+        url:    /docs/techs/cors
+      - title:  Http详解
+        url:    /docs/techs/http
       - title:  Vue高级组件通信方法
         url:    /docs/tech/vue-msg
       - title:  Vue和小程序项目接入友盟
@@ -119,6 +137,15 @@ tech-nav:
         url:    /docs/techs/node-mock-local
       - title:  手写ajax
         url:    /docs/techs/xhr-ajax
+
+  - title: 技术碎片
+    children: 
+      - title: tech-20210420
+        url:  /docs/techs/tech-20210420
+  - title: 代码碎片
+    children: 
+      - title: code-20210420
+        url:  /docs/techs/code-20210420
 
   - title:      学习笔记
     children:

@@ -35,3 +35,5 @@ key: page-about
 - 🤔 我想在Swift方面寻求帮助
 - 💬 可以向我询问前端技术的问题
 - 📫 如何联系我：zxd982092690@icloud.com
+
+本博客2021-10-03从vuepress迁移到jekyll，所以阅读记录、评论都清空了。
